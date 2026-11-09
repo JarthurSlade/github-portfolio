@@ -1,136 +1,50 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Joshua Arthur's computer science portfolio, projects, and technical skills.">
     <title>Joshua Arthur | Computer Science Portfolio</title>
-
     <style>
-      
-
-<style>
-    * {
-        box-sizing: border-box;
-        scroll-behavior: smooth;
-    }
-
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        background-color: #130F20;
-        color: #E9E4F5;
-        line-height: 1.6;
-    }
-
-    header {
-        background: linear-gradient(135deg, #211A35, #542B83, #352060);
-        color: white;
-        text-align: center;
-        padding: 90px 20px;
-    }
-
-    header h1 {
-        font-size: 42px;
-        margin-bottom: 10px;
-    }
-
-    header p {
-        font-size: 18px;
-        color: #D8C9F5;
-    }
-
-    nav {
-        background-color: #1A1429;
-        padding: 18px;
-        text-align: center;
-        position: sticky;
-        top: 0;
-        z-index: 100;
-        border-bottom: 1px solid #493365;
-    }
-
-    nav a {
-        color: #D8C9F5;
-        text-decoration: none;
-        margin: 0 15px;
-        transition: color 0.3s;
-    }
-
-    nav a:hover {
-        color: #C4B5FD;
-    }
-
-    section {
-        max-width: 950px;
-        margin: 35px auto;
-        padding: 35px;
-        background-color: #211A35;
-        border: 1px solid #493365;
-        border-radius: 12px;
-    }
-
-    h2 {
-        color: #B99AFF;
-        margin-top: 0;
-        border-bottom: 1px solid #493365;
-        padding-bottom: 10px;
-    }
-
-    p {
-        color: #E0D8EF;
-    }
-
-    ul {
-        padding-left: 25px;
-    }
-
-    li {
-        margin-bottom: 8px;
-        color: #E0D8EF;
-    }
-
-    a {
-        color: #C4B5FD;
-    }
-
-    footer {
-        text-align: center;
-        padding: 25px;
-        background-color: #1A1429;
-        color: #B9A9D3;
-        border-top: 1px solid #493365;
-    }
-
-    @media (max-width: 600px) {
-        header h1 {
-            font-size: 32px;
+        * { box-sizing: border-box; scroll-behavior: smooth; }
+        body { font-family: Arial, sans-serif; margin: 0; background: #130F20; color: #E9E4F5; line-height: 1.6; }
+        header { background: linear-gradient(135deg, #211A35, #542B83, #352060); text-align: center; padding: 75px 20px; }
+        header h1 { font-size: 42px; margin: 0 0 8px; }
+        header p { color: #E4D7FA; font-size: 18px; margin: 0; }
+        nav { background: #1A1429; padding: 16px; text-align: center; position: sticky; top: 0; z-index: 100; border-bottom: 1px solid #493365; }
+        nav a { color: #E0D2FF; text-decoration: none; margin: 0 13px; }
+        nav a:hover, nav a:focus { color: #FFFFFF; text-decoration: underline; }
+        main { padding: 1px 0 25px; }
+        section { max-width: 950px; margin: 32px auto; padding: 32px; background: #211A35; border: 1px solid #493365; border-radius: 12px; scroll-margin-top: 85px; }
+        h2 { color: #C7ACFF; margin-top: 0; border-bottom: 1px solid #493365; padding-bottom: 10px; }
+        h3 { color: #E6D7FF; margin-bottom: 6px; }
+        p, li { color: #E0D8EF; }
+        ul { padding-left: 24px; }
+        li { margin-bottom: 7px; }
+        a { color: #D4BEFF; }
+        a:hover { color: #FFFFFF; }
+        .project { padding: 18px 0; }
+        .project + .project { border-top: 1px solid #493365; }
+        .project h3 { margin-top: 0; }
+        .project p { margin: 10px 0; }
+        .note { color: #C8BBD9; font-size: 14px; }
+        footer { text-align: center; padding: 24px; background: #1A1429; border-top: 1px solid #493365; }
+        footer p { margin: 0; color: #C8BBD9; }
+        @media (max-width: 600px) {
+            header { padding: 55px 16px; }
+            header h1 { font-size: 32px; }
+            nav a { display: inline-block; margin: 5px 8px; }
+            section { margin: 20px 12px; padding: 22px; }
         }
-
-        nav a {
-            display: inline-block;
-            margin: 5px 8px;
-        }
-
-        section {
-            margin: 20px 12px;
-            padding: 22px;
-        }
-    }
-</style>
-
-
     </style>
 </head>
-
 <body>
-
     <header>
         <h1>Joshua Arthur</h1>
-        <p>Computer Science | Aspiring Software Developer</p>
+        <p>Computer Science Student | Graduating December 2026</p>
     </header>
 
-    <nav>
+    <nav aria-label="Main navigation">
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
@@ -138,134 +52,59 @@
         <a href="#contact">Contact</a>
     </nav>
 
-    <section id="about">
-        <h2>About Me</h2>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>My name is Joshua Arthur, and I am finishing my Computer Science degree at Lamar University in December 2026. I have always liked figuring out how things work, especially when it comes to computers. Over time, that interest has grown into wanting to work in software development or another technology-related field.</p>
+            <p>In my classes, I have worked with C++, Java, and Python. Some assignments have focused on algorithms and data structures, while others involved writing programs, finding mistakes, and figuring out why something was not working as expected. One example is my C++ sorting algorithms project, where I implemented insertion sort, merge sort, and radix sort. I like being able to compare different ways of solving the same problem and seeing how the code actually behaves.</p>
+            <p>I have also studied cybersecurity and computer systems. Topics such as network security, malware, and password security have helped me see how much goes into keeping technology working and protecting information. I am still exploring which area of computer science I want to focus on most, and I am interested in gaining more hands-on experience.</p>
+            <p>Outside the classroom, I have helped troubleshoot computer software and worked as a summer IT assistant at West Orange-Stark High School. That work included repairing Chromebooks, organizing equipment, and communicating with staff about technical problems. Those experiences showed me that technical work is not just about knowing the answer. It also involves listening carefully, asking questions, and being willing to work through a problem.</p>
+            <p>As I finish college, my goal is to find an entry-level position where I can keep learning and put my skills to use. I know there is still a lot for me to learn, but I enjoy improving through practice and working on projects that give me something real to show for the effort.</p>
+        </section>
 
-        <p>
-            My name is Joshua Arthur, and I am a Computer Science student
-            graduating in 2026. Throughout my education, I have developed
-            an interest in software development, programming, information
-            technology, and problem solving. I enjoy learning how different
-            technologies work and applying what I learn to real-world
-            problems.
-        </p>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>AI Programming Assistant</h3>
+                <p>I built a Python program that sends programming questions to Google's Gemini API and displays the responses in a terminal. I used GitHub Codespaces to develop and test it. This was my first experience connecting a program to an online AI service, including setting up an API key and handling errors.</p>
+                <p><strong>Technologies:</strong> Python, Gemini API, GitHub Codespaces</p>
+                <a href="https://github.com/JarthurSlade/ai-programming-assistant" target="_blank" rel="noopener noreferrer">View AI Programming Assistant on GitHub</a>
+            </div>
+            <div class="project">
+                <h3>C++ Sorting Algorithms</h3>
+                <p>For a course assignment, I wrote three C++ programs that sort numbers using insertion sort, merge sort, and radix sort. Working on them helped me practice arrays, loops, functions, and recursion, and understand how different sorting methods approach the same task.</p>
+                <p><strong>Technologies:</strong> C++</p>
+                <a href="https://github.com/JarthurSlade/cpp-sorting-algorithms" target="_blank" rel="noopener noreferrer">View Sorting Algorithms on GitHub</a>
+            </div>
+            <!-- Add the ASCII Text Adventure Editor here after its repository is ready. -->
+        </section>
 
-        <p>
-            During my coursework, I have gained experience working with
-            several programming languages, including C++, Java, and Python.
-            I have completed projects involving algorithms, data structures,
-            object-oriented programming, and software development. These
-            assignments have helped me improve my ability to write code,
-            troubleshoot problems, and understand how software is designed
-            and developed.
-        </p>
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Programming:</strong> C++, Java, Python</li>
+                <li><strong>Tools:</strong> Git, GitHub, GitHub Codespaces</li>
+                <li><strong>Other experience:</strong> Computer troubleshooting, Chromebook repair, software support</li>
+            </ul>
+        </section>
 
-        <p>
-            I am also interested in cybersecurity and information technology.
-            I have studied topics involving network security, malware
-            detection, password security, and computer systems. I enjoy
-            exploring different areas of technology and expanding my
-            technical knowledge.
-        </p>
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>I am currently preparing an updated resume. A downloadable copy will be added here.</p>
+            <!-- When resume.pdf is uploaded, replace the paragraph above with:
+            <p><a href="resume.pdf" download>Download my resume (PDF)</a></p>
+            <iframe src="resume.pdf" title="Joshua Arthur resume" width="100%" height="550"></iframe>
+            -->
+        </section>
 
-        <p>
-            Outside of my technical coursework, my previous retail experience
-            has helped me develop communication, teamwork, and customer
-            service skills. Working with customers and coworkers has taught
-            me the importance of being dependable, communicating clearly,
-            and working through problems. I have also learned the importance
-            of asking questions when I need clarification rather than making
-            assumptions.
-        </p>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:jarthurslade@gmail.com">jarthurslade@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/JarthurSlade" target="_blank" rel="noopener noreferrer">github.com/JarthurSlade</a></p>
+            <p>Location: Orange, Texas</p>
+        </section>
+    </main>
 
-        <p>
-            My professional goal is to begin a career in the technology
-            industry where I can apply my education, continue developing
-            my technical skills, and gain practical experience. I am
-            interested in opportunities involving software development,
-            IT systems, and cybersecurity. I hope to continue learning
-            new technologies, take on new challenges, and become a valuable
-            member of a professional team.
-        </p>
-    </section>
-
-    <section id="projects">
-     <section id="projects">
-    <h2>Projects</h2>
-
-    <div class="project">
-        <h3>C++ Sorting Algorithms</h3>
-
-        <p>
-            This project contains three sorting algorithms
-            implemented in C++: Insertion Sort, Merge Sort,
-            and Radix Sort. I created these programs as part
-            of my Computer Science coursework to practice
-            working with algorithms, arrays, and recursion.
-        </p>
-
-        <p><strong>Technologies:</strong> C++</p>
-
-        <a href="https://github.com/JarthurSlade/cpp-sorting-algorithms"
-           target="_blank" rel="noopener noreferrer">
-            View Project on GitHub
-        </a>
-    </div>
-
-        
-<div class="project">
-    <h3>AI Programming Assistant</h3>
-
-    <p>
-        This project is a Python-based AI assistant that
-        uses Google's Gemini API to answer programming
-        questions. Users can ask about programming concepts,
-        request explanations of code, and get help
-        identifying errors.
-    </p>
-
-    <p>
-        I created this project to learn how to connect
-        Python applications to AI models using an API.
-    </p>
-
-    <p>
-        <strong>Technologies:</strong>
-        Python, Google Gemini API, GitHub Codespaces
-    </p>
-
-    <a href="https://github.com/JarthurSlade/ai-programming-assistant"
-       target="_blank" rel="noopener noreferrer">
-        View Project on GitHub
-    </a>
-</div>
-
-</section>
-    </section>
-
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li>C++</li>
-            <li>Java</li>
-            <li>Python</li>
-            <li>Git and GitHub</li>
-        </ul>
-    </section>
-
-    <section id="resume">
-        <h2>Resume</h2>
-        <p>My professional resume will be available here.</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>GitHub: <a href="https://github.com/JarthurSlade">My GitHub</a></p>
-    </section>
-
-    <footer>
-        <p>Joshua Arthur | Computer Science Portfolio</p>
-    </footer>
-
+    <footer><p>Joshua Arthur | Computer Science Portfolio</p></footer>
 </body>
 </html>
